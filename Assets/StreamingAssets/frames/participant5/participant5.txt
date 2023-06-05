@@ -1,0 +1,13 @@
+﻿{
+    "participantName": "None",
+    "recordingName": "None",
+    "eyesApiAvailable": true,
+    "gazeCalibrationValid": true,
+    "startTime": "03.03.2022 17:14:35",
+    "stopTime": "03.03.2022 17:22:12",
+    "recordingDuration": "00:07:37.2710540",
+    "positionLoggedGameObjectNames": [
+        "virtual_1"
+    ],
+    "infoLogs": []
+}
