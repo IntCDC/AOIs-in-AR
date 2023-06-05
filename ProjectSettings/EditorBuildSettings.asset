@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/ScarfPlot_withoutLayoutGroup_test.unity
+    guid: ee141650c64721840ae86a9dc695a1e7
+  - enabled: 0
+    path: Assets/Scenes/Timeline_Visualization.unity
+    guid: 70996174a904ca44ba96c35b6aa56274
+  - enabled: 1
+    path: Assets/Scenes/TimelineVisualization.unity
+    guid: 761ec31f033321c4a96d6e8cf91044ba
+  - enabled: 0
+    path: Assets/Scenes/GazeReplay.unity
+    guid: dd30d86f9c1635b4fb6d3f85aa204dd8
+  - enabled: 0
+    path: Assets/Scenes/ExtractFrames.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/GazeReplay.unity
+    guid: 8aa05a53d392deb49acb7da695afa772
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 655cfe75d307ef042b603cb6f7fb4e12,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 742086c5aef35664abaa6f13d0cddf94,
+      type: 2}
