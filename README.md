@@ -18,7 +18,7 @@ The project consists of an Assets, Packages and ProjectSettings folder. The Asse
 
 <pre>
 <code>
-Assets.
+.
 └── Scenes
     |── TimelineVisualization  # Unity scene for Timeline Visualization
     |── GazeReplay  # Unity scene for Gaze Replay
