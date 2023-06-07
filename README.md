@@ -11,8 +11,29 @@ The Unity project contains two scenes (located in Assets/Scenes):
 1. TimelineVisualization
 2. GazeReplay
 
-First, open both scenes in Unity, then unload GazeReplay. In *File/Build Settings*, the order of the *Scenes in Build* should be as follows: **TimelineVisualization 0, GazeReplay 1**. When you start the active scene (TimelineVisualization), the GazeReplay scene is loaded automatically.
+First, drag both scenes into the hierarchy window, then unload GazeReplay. In *File/Build Settings*, the order of the *Scenes in Build* should be as follows: **TimelineVisualization 0, GazeReplay 1**. When you start the active scene (TimelineVisualization), the GazeReplay scene will be loaded as well.
 
+## Structure
+The project consists of an Assets, Packages and ProjectSettings folder. The Assets folder contains the necessary scripts, prefabs and data. Important scripts and data are listed below.
+
+<pre>
+<code>
+Assets.
+└── Scenes
+    |── TimelineVisualization  # Unity scene for Timeline Visualization
+    |── GazeReplay  # Unity scene for Gaze Replay
+└── Scripts
+    |── AOI_Manager  # the code to create AOI cubes in gaze replay
+    |── FileHandler  # the code to save annotated gaze data in json file
+    |── Frame  # code that contains fixation information
+    |── FrameAnnotator  # the code to handle fixation annotation in timeline visualization
+    |── dataHandler  # the code to extract gaze data from the csv files
+└── Streaming Assets
+    |── frames  # thumbnail images of the fixations for each participant
+    |── study_data  # fixation data of each participant
+    |── RScript  # R code to extract fixations from gaze data
+</code>
+</pre>
 
 ## Gaze Replay
 This visualization simulates the movement and gaze data of participants. Fixations can be annotated by performing spatial annotation. For this, an AOI cube is placed in the room so all fixations in the selected region are labeled with a specific AOI.
