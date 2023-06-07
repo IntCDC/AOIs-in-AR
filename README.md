@@ -47,7 +47,7 @@ Individual fixations can be annotated by clicking on one or more thumbnails. Whe
 ![fixationbasedAnnotation](https://github.com/IntCDC/AOIs-in-AR/assets/128146104/110f6d02-8bc3-47e6-8a6d-ca2199e62b3d)
 
 
-## Data set
+## Dataset
 To conduct the pilot study, we used HoloLens2 - we created an AR scene in Unity and used the [ARETT package](https://github.com/AR-Eye-Tracking-Toolkit/ARETT) to gather eye-tracking data. In parallel, we did a video recording with the HoloLens. After the study, we extracted fixations from gaze data using the [ARETT-R package](https://github.com/AR-Eye-Tracking-Toolkit/ARETT-R-Package) and created a thumbnail image for each fixation from the videos. During the study, we also generated a spatial mapping of the environment and created a photogrammetry mesh to simulate the room in gaze replay. To avoid copyright infringement, we replaced the mesh with a basic cube. 
 For more information about the study, please read our paper.
 
